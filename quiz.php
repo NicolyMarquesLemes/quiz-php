@@ -16,10 +16,9 @@
 
 <form action="resultado.php" method="POST">
 
-<p>Digite seu nome</p>
+<h3 class="nome">Digite seu nome:</h3>
 <input type="text" name="nome" required>
 
-<!-- PERGUNTA 1 -->
 <div class="pergunta">
 <p>1 - O que você mais gosta de fazer no computador?</p>
 
@@ -29,7 +28,6 @@
 <input type="radio" name="p1" value="robotica"> Automatizar coisas
 </div>
 
-<!-- PERGUNTA 2 -->
 <div class="pergunta">
 <p>2 - Qual matéria você mais gosta?</p>
 
@@ -39,7 +37,6 @@
 <input type="radio" name="p2" value="robotica"> Física
 </div>
 
-<!-- PERGUNTA 3 -->
 <div class="pergunta">
 <p>3 - Qual ferramenta você gostaria de aprender?</p>
 
@@ -49,7 +46,6 @@
 <input type="radio" name="p3" value="robotica"> Arduino
 </div>
 
-<!-- PERGUNTA 4 -->
 <div class="pergunta">
 <p>4 - Qual dessas atividades parece mais divertida?</p>
 
@@ -59,7 +55,6 @@
 <input type="radio" name="p4" value="robotica"> Construir robôs
 </div>
 
-<!-- PERGUNTA 5 -->
 <div class="pergunta">
 <p>5 - O que você prefere?</p>
 
@@ -69,7 +64,6 @@
 <input type="radio" name="p5" value="robotica"> Inovação
 </div>
 
-<!-- PERGUNTA 6 -->
 <div class="pergunta">
 <p>6 - Qual desses você escolheria?</p>
 
@@ -79,7 +73,6 @@
 <input type="radio" name="p6" value="robotica"> Programar robô
 </div>
 
-<!-- PERGUNTA 7 -->
 <div class="pergunta">
 <p>7 - O que você faria em um projeto?</p>
 
@@ -89,7 +82,6 @@
 <input type="radio" name="p7" value="robotica"> Automação
 </div>
 
-<!-- PERGUNTA 8 -->
 <div class="pergunta">
 <p>8 - Qual linguagem te chama atenção?</p>
 
@@ -99,7 +91,6 @@
 <input type="radio" name="p8" value="robotica"> C++
 </div>
 
-<!-- PERGUNTA 9 -->
 <div class="pergunta">
 <p>9 - Qual projeto parece mais interessante?</p>
 
@@ -109,7 +100,6 @@
 <input type="radio" name="p9" value="robotica"> Criar robô
 </div>
 
-<!-- PERGUNTA 10 -->
 <div class="pergunta">
 <p>10 - Como você se define?</p>
 

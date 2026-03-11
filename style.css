@@ -19,6 +19,10 @@ font-size:32px;
     color: #184f93;
 }
 
+.nome{
+    color: #184f93;
+}
+
 #bemvindo{
     color: #184f93;
 }
@@ -36,6 +40,12 @@ animation: aparecer 1.2s ease;
 
 header p{
 color:white;
+}
+
+.jogador{
+font-size:20px;
+color:#184f93;
+margin-top:20px;
 }
 
 @keyframes aparecer{
@@ -82,8 +92,14 @@ margin-bottom:20px;
 }
 
 .pergunta{
-margin-top:40px;
+margin:40px auto;
 font-weight:bold;
+background-color:white;
+max-width:700px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+text-align:left;
 }
 
 .perfil-img{
@@ -93,3 +109,13 @@ margin-top:20px;
 animation: aparecer 1s;
 
 }
+
+.descricao{
+max-width:600px;
+margin:20px auto;
+line-height:1.6;
+font-size:18px;
+color:#000000;
+text-align:center;
+}
+

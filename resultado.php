@@ -102,13 +102,13 @@ file_put_contents($arquivo,$contador);
 
 <div class="container">
 
-<p>Jogador: <?php echo $nome; ?></p>
+<p class="jogador">Jogador: <?php echo $nome; ?></p>
 
 <h2><?php echo $perfil; ?></h2>
 
 <img src="<?php echo $img; ?>" class="perfil-img">
 
-<p><?php echo $descricao; ?></p>
+<h3 class="descricao"><?php echo $descricao; ?></h3>
 
 <p id="vezes">Este quiz já foi jogado <?php echo $contador; ?> vezes!</p>
 
